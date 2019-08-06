@@ -1,9 +1,8 @@
-# Testfyle
+# Spring-test
+
 JWT Token: 
 ```
-{
-    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNTYxNjE3Mzk0fQ.Amrv01cetbOo4yXMwVhb9jWb3waZJO3taW0VpOO_5yNk7INwTunShpekS6O1orW69tTfI77DpLndpbyRGhfixA"
-}
+curl -X POST   'https://hidden-stream-56501.herokuapp.com/login' -H 'Content-Type: Application/json'   -d '{"username":"user", "password":"password"}'
 ```
 
 Curl APIs:
